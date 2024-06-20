@@ -23,7 +23,7 @@ def genereer_gestructureerde_tpm(n):
 
 # Genereer de TPM met hoeveelheid nodes n
 tpm = genereer_gestructureerde_tpm(n)
-log(tpm)
+print(tpm)
 
 network = pyphi.Network(tpm)
 
